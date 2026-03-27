@@ -147,6 +147,119 @@ export default function MandarinPage() {
         </section>
 
         <section className="container mx-auto px-4 py-16">
+          <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-4 drop-shadow-lg">
+            Наши цены
+          </h2>
+          <p className="text-xl text-orange-900 text-center mb-12">
+            Выгодные предложения на свежие мандарины
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl p-8 hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="text-center mb-6">
+                <div className="text-6xl mb-4">🍊</div>
+                <h3 className="text-2xl font-bold text-orange-600 mb-2">Базовый</h3>
+                <p className="text-gray-600 mb-4">Для любителей мандаринов</p>
+              </div>
+              <div className="text-center mb-6">
+                <div className="text-5xl font-bold text-orange-600 mb-2">350₽</div>
+                <div className="text-gray-600">за 1 кг</div>
+              </div>
+              <ul className="space-y-3 mb-8 flex-grow">
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Абхазские мандарины
+                </li>
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Свежий урожай
+                </li>
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Отборные плоды
+                </li>
+              </ul>
+              <button className="w-full bg-orange-500 text-white py-3 rounded-full font-bold hover:bg-orange-600 transition-colors duration-300">
+                Заказать
+              </button>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-500 to-amber-500 rounded-3xl shadow-2xl p-8 hover:scale-105 transition-transform duration-300 flex flex-col relative overflow-hidden">
+              <div className="absolute top-4 right-4 bg-white text-orange-600 px-4 py-1 rounded-full text-sm font-bold">
+                Популярное
+              </div>
+              <div className="text-center mb-6">
+                <div className="text-6xl mb-4">🍊🍊</div>
+                <h3 className="text-2xl font-bold text-white mb-2">Премиум</h3>
+                <p className="text-orange-100 mb-4">Лучший выбор</p>
+              </div>
+              <div className="text-center mb-6">
+                <div className="text-5xl font-bold text-white mb-2">550₽</div>
+                <div className="text-orange-100">за 1 кг</div>
+              </div>
+              <ul className="space-y-3 mb-8 flex-grow">
+                <li className="flex items-center gap-2 text-white">
+                  <span className="text-yellow-300">✓</span>
+                  Клементины премиум
+                </li>
+                <li className="flex items-center gap-2 text-white">
+                  <span className="text-yellow-300">✓</span>
+                  Без косточек
+                </li>
+                <li className="flex items-center gap-2 text-white">
+                  <span className="text-yellow-300">✓</span>
+                  Максимальная сладость
+                </li>
+                <li className="flex items-center gap-2 text-white">
+                  <span className="text-yellow-300">✓</span>
+                  Бесплатная доставка от 3 кг
+                </li>
+              </ul>
+              <button className="w-full bg-white text-orange-600 py-3 rounded-full font-bold hover:bg-orange-50 transition-colors duration-300">
+                Заказать
+              </button>
+            </div>
+
+            <div className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl p-8 hover:scale-105 transition-transform duration-300 flex flex-col">
+              <div className="text-center mb-6">
+                <div className="text-6xl mb-4">🍊🍊🍊</div>
+                <h3 className="text-2xl font-bold text-orange-600 mb-2">Оптовый</h3>
+                <p className="text-gray-600 mb-4">Для больших компаний</p>
+              </div>
+              <div className="text-center mb-6">
+                <div className="text-5xl font-bold text-orange-600 mb-2">280₽</div>
+                <div className="text-gray-600">за 1 кг (от 10 кг)</div>
+              </div>
+              <ul className="space-y-3 mb-8 flex-grow">
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Микс сортов на выбор
+                </li>
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Минимальный заказ 10 кг
+                </li>
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Бесплатная доставка
+                </li>
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Персональный менеджер
+                </li>
+                <li className="flex items-center gap-2 text-gray-700">
+                  <span className="text-green-500">✓</span>
+                  Скидки постоянным клиентам
+                </li>
+              </ul>
+              <button className="w-full bg-orange-500 text-white py-3 rounded-full font-bold hover:bg-orange-600 transition-colors duration-300">
+                Заказать
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-16">
           <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-orange-600 mb-8 text-center">
               Подпишитесь на новости
